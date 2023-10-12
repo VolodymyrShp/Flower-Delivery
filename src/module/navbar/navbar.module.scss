@@ -1,0 +1,21 @@
+.navbar {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	border: 1px solid var(--Black, #121212);
+	height: 85px;
+	&_signIn{
+		border-left: 1px solid var(--Black, #121212);
+	}
+	ul{
+		display: flex;
+	}
+	li {
+		border-right: 1px solid var(--Black, #121212);
+		width: 180px;
+		display: flex;
+		justify-content: center;
+		padding: 32px 24px;
+		cursor: pointer;
+	}
+}
