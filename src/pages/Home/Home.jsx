@@ -1,6 +1,6 @@
 
-import Hero from '../../module/heroSection/Hero'
-import { Navbar } from '../../module/navbar/Navbar'
+import {Hero} from '../../module/HomeSections/HeroSection/Hero'
+import { Navbar } from '../../module/Navbar/Navbar'
 
 function Home() {
 	return (
