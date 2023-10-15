@@ -4,6 +4,7 @@ import AboutUs from '../pages/AboutUs/AboutUs'
 import Category from '../pages/Category/Category'
 import Checkout from '../pages/Checkout/Checkout'
 import Product from '../pages/Product/Product'
+import SignIn from '../pages/SignIn/SignIn'
 import Subscription from '../pages/Subscription/Subscription'
 
 const Router = () => {
@@ -15,6 +16,7 @@ const Router = () => {
 				<Route element={<Category />} path='/category' />
 				<Route element={<Checkout />} path='/checkout' />
 				<Route element={<Product />} path='/product' />
+				<Route element={<SignIn />} path='/signin' />
 				<Route element={<Subscription />} path='/subscription' />
 			</Routes>
 		</BrowserRouter>
