@@ -3,7 +3,9 @@
 	flex-direction: row;
 	border-left: 1px solid var(--Black, #121212);
 	border-right: 1px solid var(--Black, #121212);
+	border-top: 1px solid var(--Black, #121212);
 	height: 580px;
+
 	&__text {
 		height: 580px;
 		display: flex;
@@ -11,12 +13,25 @@
 		padding: 80px;
 		flex-direction: column;
 		align-items: flex-start;
-		gap: 64px;
+		gap: 40px;
 		border-left: 1px solid var(--Black, #121212);
+
+		button {
+			display: flex;
+			width: 175px;
+			height: 56px;
+			padding: 16px 24px 14px 24px;
+			justify-content: center;
+			align-items: center;
+			gap: 8px;
+			background: none;
+			border: 1px solid var(--Black, #121212);
+			cursor: pointer;
+		}
 	}
 
 	&__heading {
-		border-top: 1px solid var(--Black, #121212);
+
 		display: flex;
 		width: 720px;
 		height: 60px;
@@ -27,16 +42,5 @@
 		gap: 16px;
 	}
 
-	button {
-		display: flex;
-		width: 175px;
-		height: 56px;
-		padding: 16px 24px 14px 24px;
-		justify-content: center;
-		align-items: center;
-		gap: 8px;
-		background: none;
-		border: 1px solid var(--Black, #121212);
-		cursor: pointer;
-	}
+
 }

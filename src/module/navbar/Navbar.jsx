@@ -2,7 +2,7 @@ import styles from './navbar.module.scss'
 
 export const Navbar = () => {
 	return (
-		<div className={styles.navbar}>
+		<nav className={styles.navbar}>
 			<ul>
 				<li>Shop</li>
 				<li>Contact</li>
@@ -11,6 +11,6 @@ export const Navbar = () => {
 				<li className={styles.navbar_signIn}>Sign in</li>
 				<li>Cart</li>
 			</ul>
-		</div>
+		</nav>
 	)
 }

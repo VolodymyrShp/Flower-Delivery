@@ -3,9 +3,9 @@ import { heroText } from '../../../components/SectionComponents/HeroComponent/he
 import styles from './hero.module.scss'
 export const Hero = () => {
 	return (
-		<div className={styles.heroSection}>
+		<section className={styles.heroSection}>
 			{heroText({ styles })}
 			{cardList({ styles })}
-		</div>
+		</section>
 	)
 }

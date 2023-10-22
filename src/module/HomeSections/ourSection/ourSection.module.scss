@@ -1,0 +1,11 @@
+.ourSection {
+	display: flex;
+	width: 1440px;
+	padding: 80px 10px;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-right: 1px solid var(--Black, #121212);
+	border-bottom: 1px solid var(--Black, #121212);
+	border-left: 1px solid var(--Black, #121212);
+}

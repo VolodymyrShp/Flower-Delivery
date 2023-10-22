@@ -3,7 +3,10 @@ import cardItem2 from '/images/card-item2.png'
 import cardItem3 from '/images/card-item3.png'
 import cardItem4 from '/images/card-item4.png'
 import cardItem5 from '/images/card-item5.png'
-import imgHero  from '/images/img-hero.png';
+import imgHero from '/public/images/img-hero.png'
+import weeding from '/images/weeding-event.jpg'
+
+export const weedingIMG = weeding
 export const hero = imgHero
 export const categoryList = [
 	{
@@ -25,5 +28,6 @@ export const categoryList = [
 	{
 		card_text: 'Fresheners',
 		img: cardItem5,
-	}
+	},
 ]
+
