@@ -6,6 +6,8 @@ import OurSection from '../../module/HomeSections/ourSection/OurSection'
 import { Navbar } from '../../module/Navbar/Navbar'
 import { WeedingEvent } from '../../module/HomeSections/weedingEvent/WeedingEvent'
 import ServiceSection from './../../module/HomeSections/serviceSection/ServiceSection';
+import { ReviewsSection } from '../../module/HomeSections/reviewsSection/ReviewsSection'
+import { Footer } from '../../module/Footer/Footer'
 
 
 function Home() {
@@ -19,6 +21,8 @@ function Home() {
 			<OurSection />
 			<ServiceSection/>
 			<WeedingEvent />
+			<ReviewsSection/>
+			<Footer/>
 		</>
 	)
 }

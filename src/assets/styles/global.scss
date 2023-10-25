@@ -36,6 +36,31 @@ h3 {
 	/* 45.6px */
 }
 
+h5 {
+	color: var(--Gray, #808080);
+
+	/* Desktop & Tablet/H5 */
+	font-family: Gilroy;
+	font-size: 21px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 120%;
+	/* 25.2px */
+}
+
+h6 {
+	color: var(--Black, #121212);
+	text-align: center;
+
+	/* Desktop & Tablet/H6 */
+	font-family: Gilroy;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 120%;
+	/* 19.2px */
+}
+
 p {
 	color: var(--black-brightness-90, rgba(18, 18, 18, 0.90));
 
@@ -58,6 +83,31 @@ p {
 	line-height: 120%;
 	/* 16.8px */
 	text-transform: uppercase;
+}
+
+.link {
+	color: var(--Black, #121212);
+
+	/* Desktop & Tablet/Link */
+	font-family: Gilroy;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 120%;
+	/* 19.2px */
+	letter-spacing: 0.4px;
+}
+
+.caption {
+	color: var(--Gray, #808080);
+
+	/* Desktop & Tablet/Caption */
+	font-family: Gilroy;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 120%;
+	/* 16.8px */
 }
 
 .subtitle {

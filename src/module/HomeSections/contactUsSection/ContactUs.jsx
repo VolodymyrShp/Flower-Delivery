@@ -33,11 +33,8 @@ export const ContactUs = () => {
 						<h3>Address</h3>
 						<div>
 							<p>opening hours: 8 to 11 p.m.</p>
-							<p>
-								15/4 Khreshchatyk Street, Kyiv{' '}
-							</p>
+							<p>15/4 Khreshchatyk Street, Kyiv </p>
 						</div>
-						
 					</div>
 				</div>
 			</div>
@@ -54,7 +51,12 @@ export const ContactUs = () => {
 					<div className={styles.contactUs__media}>
 						{mediaList.map((itemList, index) => {
 							return (
-								<a key={index} href={itemList.link}>
+								<a
+									key={index}
+									href={itemList.link}
+									target='_blank'
+									rel='noopener noreferrer'
+								>
 									<img src={itemList.icon} alt='' />
 								</a>
 							)
