@@ -1,3 +1,14 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url(../../../public/fonts/gilroy/Gilroy-Regular.eot);
+    src: local("0") url(../../../public/fonts/gilroy/Gilroy-Regular.svg) format('svg'),
+         url(../../../public/fonts/gilroy/Gilroy-Regular.ttf) format('truetype'),
+         url(../../../public/fonts/gilroy/Gilroy-Regular.woff) format('woff'),
+         url(../../../public/fonts/gilroy/Gilroy-Regular.woff2) format('woff2');
+         font-weight: normal;
+		 font-size: 14px;
+         font-style: normal;
+}
 * {
 	padding: 0;
 	margin: 0;

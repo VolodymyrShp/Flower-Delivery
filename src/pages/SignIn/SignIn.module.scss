@@ -1,19 +1,27 @@
 .mainContainer {
     width: 100vw;
-    background-color: aqua;
+
 }
 
 @media(max-width: 767px) {
     .mainContainer {
+        padding: 40px 16px;
 
     }
     .contentContainer {
+        color: #121212;
 
     }
     .signGreeting {
-
+        font-size: 34px;
+        font-weight: 600;
+        line-height: 120%;
+        margin-bottom: 24px;
     }
     .plainText {
-
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 100%;
+        margin-bottom: 12px;
     }
 }

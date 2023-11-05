@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'Gilroy-UltraLight';
+  src: url(./Gilroy-UltraLight.eot);
+  src: url(./Gilroy-UltraLight.eot?#iefix) format('embedded-opentype'),
+       url(./Gilroy-UltraLight.otf) format('otf'),
+       url(./Gilroy-UltraLight.svg#Gilroy-UltraLight) format('svg'),
+       url(./Gilroy-UltraLight.ttf) format('truetype'),
+       url(./Gilroy-UltraLight.woff) format('woff'),
+       url(./Gilroy-UltraLight.woff2) format('woff2');
+}

@@ -1,0 +1,17 @@
+@use 'sass:map';
+.cnt {
+	display: flex;
+	align-items: center;
+	width: 100%;
+}
+.cnt span {
+	display: inline-block;
+	height: 1px;
+	width: 100%;
+	background: #D2D2D7;
+}
+.cnt p {
+	font-style: 12px;
+	margin: 0px 12px;
+	color: #D2D2D7;
+}
