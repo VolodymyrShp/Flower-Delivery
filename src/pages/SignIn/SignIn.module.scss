@@ -1,27 +1,125 @@
+body {
+    height: 100%;
+}
 .mainContainer {
     width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    .plainText {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 100%;
+        margin-bottom: 12px;
+    }
+    .bodyContainer {
+        flex: 1 1 auto;
+    }
+    .socialAppsContainer {
+        display: flex;
+        flex-direction: column;
+        margin-top: 24px;
+        .logButton {
+            padding: 16px 24px 14px 24px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid #121212;
+            .loginIcon {
+                margin-right: 8px;
+            }
+            span {
+                text-transform: uppercase;
+                text-decoration: none;
+                font-weight: 500;
+                letter-spacing: 0.35px;
+                color: #121212;
+            }
+        }
+    }
 
 }
 
 @media(max-width: 767px) {
     .mainContainer {
         padding: 40px 16px;
-
     }
     .contentContainer {
         color: #121212;
-
+        display: flex;
+        flex-direction: column;
     }
+
     .signGreeting {
         font-size: 34px;
         font-weight: 600;
         line-height: 120%;
         margin-bottom: 24px;
+        width: 90%;
     }
-    .plainText {
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 100%;
-        margin-bottom: 12px;
+
+    .socialAppsContainer {
+        .description {
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 100%; /* 16px */
+        }
+        .loginSocialApps {
+            display: flex;
+            flex-direction: column;
+            .logButton {
+                height: 48px;
+                justify-content: center;
+                align-items: center;
+                border: 1px solid #121212;
+                .loginIcon {
+                    margin-right: 8px;
+                }
+                span {
+                    text-transform: uppercase;
+                    text-decoration: none;
+                    font-weight: 500;
+                    letter-spacing: 0.35px;
+                    color: #121212;
+                }
+            }
+            .logButton:not(:last-child) {
+                margin: 12px 0px 16px 0px;
+            }
+        }
+    }
+
+}
+@media (min-width: 768px) and  (max-width: 1139px) {
+    .mainContainer {
+        padding: 80px 80px 40px 80px;
+        display: flex;
+        flex-direction: column;
+        .signGreeting {
+            font-size: 50px;
+            font-weight: 600;
+            line-height: 120%;
+            margin-bottom: 24px;
+        }
+        .description {
+            line-height: 120%;
+            margin-bottom: 12px;
+        }
+        .loginSocialApps {
+            display: flex;
+            flex-direction: row;
+            .logButton {
+                height: 56px;
+                flex: 1 1 50%;
+                span {
+                    font-size: 16px;
+                    line-height: 120%; /* 19.2px */
+                    letter-spacing: 0.48px; 
+                }
+            }
+            .logButton:not(:last-child) {
+                margin: 0px 16px 0px 0px;
+            }
+        }
     }
 }

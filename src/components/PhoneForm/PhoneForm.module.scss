@@ -32,5 +32,11 @@
         line-height: 100%; /* 14px */
         letter-spacing: 0.35px;
         text-transform: uppercase;
+
+    }
+}
+@media (min-width: 768px) and  (max-width: 1139px) {
+    .phoneFormButton {
+        font-size: 16px !important;
     }
 }

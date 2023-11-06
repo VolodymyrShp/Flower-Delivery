@@ -1,0 +1,28 @@
+.linksContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .policyLink:not(:last-child) {
+        margin-bottom: 12px; 
+    }
+    .link {
+        text-decoration: underline;
+        color: #121212;
+    }
+}
+@media (min-width: 768px) and  (max-width: 1139px) {
+    .linksContainer {
+        flex-direction: row;
+        justify-content: center;
+        .policyLink:not(:last-child) {
+            //margin-right: 24px; 
+            margin-bottom: 0px;
+        }
+        .policyLink:not(:last-child)::after {
+            content: "|";
+            width: 1px;
+            margin-left: 12px;
+            margin-right: 12px;
+        }
+    }
+}
