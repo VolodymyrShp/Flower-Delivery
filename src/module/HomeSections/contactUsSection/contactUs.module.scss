@@ -1,9 +1,8 @@
 .contactUs {
 	display: flex;
-	align-items: flex-start;
 	flex-direction: row;
-	width: 1440px;
-	height: 720px;
+	width: 100vw;
+	height: 100vh;
 	border-bottom: 1px solid var(--Black, #121212);
 	border-left: 1px solid var(--Black, #121212);
 	border-right: 1px solid var(--Black, #121212);
@@ -12,44 +11,41 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		height: 720px;
-		width: 720px;
+		width: 100%;
 	}
 
 	&__info {
 		display: flex;
 		align-items: flex-start;
 		flex-direction: row;
-		width: 720px;
-		height: 360px;
-		
+
+		height: 40vh;
 	}
 
 	&__heading {
 		display: flex;
-		width: 720px;
-		height: 360px;
-		padding: 80px;
+		height: 40vh;
+		padding: 10vh;
 		flex-direction: column;
 		align-items: flex-start;
 		gap: 24px;
 
 		div {
-			width: 560px;
-			height: 100px;
+			width: 40vw;
+			height: 15vh;
 
 			div {
 				display: flex;
-				margin-top: 16px;
-				gap: 7px;
+				margin-top: 3vh;
+				gap: 1vh;
 			}
 		}
 
 		input {
 			gap: 12px;
 			flex: 1 0 0;
-			width: 270px;
-			height: 56px;
+			width: 20vw;
+			height: 8vh;
 		}
 
 		button {
@@ -57,12 +53,10 @@
 			justify-content: center;
 			background: var(--Black, #121212);
 			color: var(--White, #FFF);
-			height: 56px;
-			padding: 16px 24px 14px 24px;
-			width: 270px;
-			height: 56px;
+			width: 20vw;
+			height: 8vh;
 			border: none;
-			gap: 8px;
+			gap: 1vw;
 			flex: 1 0 0;
 		}
 	}
@@ -70,18 +64,16 @@
 	&__rightCl {
 		display: flex;
 		flex-direction: column;
-		width: 718px;
-		align-items: flex-end;
+		width: 100%;
 		border-left: 1px solid var(--Black, #121212);
-
 		div {
 			display: flex;
 			flex-direction: row;
 
 			div {
 				display: flex;
-				width: 360px;
-				height: 78px;
+				width: 25vw;
+				height: 10.6vh;
 				padding: 16px 40px;
 				justify-content: space-between;
 				align-items: center;
@@ -94,8 +86,8 @@
 	}
 
 	&__bouquets {
-		height: 642px;
-		width: 718px;
+		height: 89.2vh;
+		width: 50vw;	
 	}
 
 	&__media {

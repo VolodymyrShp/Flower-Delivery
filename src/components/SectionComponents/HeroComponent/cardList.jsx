@@ -5,7 +5,9 @@ export const cardList = ({ styles }) => {
 			{categoryList.map((cardItem, id) => {
 				return id % 2 ? (
 					<div key={id} className={styles.card}>
-						<img src={cardItem.img} alt='' />
+						<div>
+							<img src={cardItem.img} alt='' />
+						</div>
 						<div className={styles.card__text}>
 							<h3>{cardItem.card_text}</h3>
 							<button>
@@ -23,7 +25,9 @@ export const cardList = ({ styles }) => {
 								<span />
 							</button>
 						</div>
-						<img src={cardItem.img} alt='' />
+						<div>
+							<img src={cardItem.img} alt='' />
+						</div>
 					</div>
 				)
 			})}

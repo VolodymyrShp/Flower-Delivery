@@ -4,7 +4,7 @@ export const heroText = ({styles}) => {
 	return (
 		<div className={styles.heroSection__cl1}>
 			<div className={styles.heroSection__cl1_heading}>
-				<h1>Kyiv LuxeBouquets</h1>
+				<h1>Kyiv<br/>LuxeBouquets</h1>
 				<p>
 					Discover Uniquely Crafted Bouquets and Gifts for Any Occasion: Spread
 					Joy with Our Online Flower Delivery Service

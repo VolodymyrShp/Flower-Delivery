@@ -4,19 +4,27 @@
 	justify-content: space-between;
 	border-bottom: 1px solid var(--Black, #121212);
 	border-left: 1px solid var(--Black, #121212);
-	height: 85px;
-	&_signIn{
+	height: 13vh;
+	width: 100vw;
+	&_signIn {
 		border-left: 1px solid var(--Black, #121212);
 	}
-	ul{
+
+	ul {
 		display: flex;
 	}
+
 	li {
 		border-right: 1px solid var(--Black, #121212);
-		width: 180px;
+		width: 12.47vw;
 		display: flex;
 		justify-content: center;
-		padding: 32px 24px;
+		font-size: 2.7vh;
+		padding: 5vh 2.5vh;
 		cursor: pointer;
+	}
+	li:hover{
+		transform: translate3d(0px, 0vw, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg);
+		transform-style: preserve-3d;
 	}
 }
