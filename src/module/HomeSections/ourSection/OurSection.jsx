@@ -2,7 +2,7 @@ import styles from './ourSection.module.scss'
 const OurSection = () => {
 	return (
 		<section className={styles.ourSection}>
-			<h2>OurSection</h2>
+			<h2>Our Section</h2>
 		</section>
 	)
 }

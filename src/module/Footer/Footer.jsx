@@ -8,7 +8,7 @@ export const Footer = () => {
 				<p>
 					Remember to offer beautiful flowers from Kyiv LuxeBouquets Valentines
 					Day, Mothers Day, Christmas... Reminds you 7 days before. No spam or
-					sharing your address
+					sharing your address 
 				</p>
 				<input type='text' placeholder='Your Email' />
 				<button>REMIND</button>

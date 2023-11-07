@@ -1,16 +1,18 @@
-import styles from './navbar.module.scss'
+import styles from './navbar.module.scss';
+// import Modal from '../Modal/Modal.jsx';
 
 export const Navbar = () => {
-	return (
+ 	return (
 		<nav className={styles.navbar}>
 			<ul>
-				<li style={{}}>Shop</li>
+				<li style={{}}>Not shop</li>
 				<li>Contact</li>
 			</ul>
 			<ul>
 				<li className={styles.navbar_signIn}>Sign in</li>
-				<li>Cart</li>
+				<li>Carting</li>
 			</ul>
 		</nav>
+		
 	)
 }
